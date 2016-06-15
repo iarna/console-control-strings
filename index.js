@@ -49,6 +49,10 @@ exports.gotoSOL = function () {
   return '\r'
 }
 
+exports.beep = function () {
+  return '\x07'
+}
+
 exports.hideCursor = function hideCursor () {
   return prefix + '?25l'
 }

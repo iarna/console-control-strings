@@ -41,5 +41,6 @@ test('consoleControl', function (t) {
   }
   t.is(consoleControl.goto(10, 3), '\x1b[3;10H', 'absolute position')
   t.is(consoleControl.gotoSOL(), '\r', 'goto start of line')
+  t.is(consoleControl.beep(), '\x07', 'beep beeps')
   t.done()
 })

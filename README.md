@@ -71,6 +71,11 @@ Note that the origin is _1, 1_ not _0, 0_.
 Returns the escape sequence to move the cursor to the beginning of the
 current line. (That is, it returns a carriage return, `\r`.)
 
+### var code = consoleControl.beep()
+
+Returns the escape sequence to cause the termianl to beep.  (That is, it
+returns unicode character `\x0007`, a Control-G.)
+
 ### var code = consoleControl.hideCursor()
 
 Returns the escape sequence to hide the cursor.
