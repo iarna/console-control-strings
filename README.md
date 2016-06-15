@@ -7,7 +7,7 @@ OSes, except where noted.
 
 ## Usage
 
-```
+```js
 var consoleControl = require('console-control-strings')
 
 console.log(consoleControl.color('blue','bgRed', 'bold') + 'hi there' + consoleControl.color('reset'))
